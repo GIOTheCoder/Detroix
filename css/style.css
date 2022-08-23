@@ -1,0 +1,34 @@
+:root {
+    --prim: #131d29;
+    --sec: #f2f3f5;
+    --active: #ff8901;
+
+    --font: 'Oswald', sans-serif;
+
+}
+
+    /* 
+        Utility Classes
+    */
+.prim-font {
+    font-family: var(--font);
+}
+    /* 
+        Global Styling
+    */
+    body {
+        background-color: var(--sec);
+    }
+
+    /* 
+        Header
+    */
+
+    .top-header {
+        background-color: var(--prim);
+    }
+
+    .demo-link{
+        display: inline-block;
+        padding-top: 16px;
+    }
