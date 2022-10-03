@@ -13,11 +13,22 @@
 .prim-font {
     font-family: var(--font);
 }
+.my-btn {
+    background-color: var(--prim);
+    border-radius: 6px;
+    color: white;
+}
+
+.my-btn:hover {
+    background-color: var(--active);
+    color: white;
+}
     /* 
         Global Styling
     */
     body {
         background-color: var(--sec);
+        font-family: var(--font);
     }
 
     /* 
@@ -31,4 +42,54 @@
     .demo-link{
         display: inline-block;
         padding-top: 16px;
+    }
+
+    .bottom-nav {
+        margin-top: 20px;
+    }
+
+    .top-nav .nav-item {
+        border-right: solid #6c757d 1px;
+    }
+    
+    .top-nav .nav-item:last-child {
+        border-right: none;
+    }
+
+    .top-nav-link {
+        margin-left: 6px;
+    }
+
+    /* 
+    Main
+    */
+
+    .sliders {
+        margin: 12px 0;
+    }
+
+    .slider {
+        margin: 0 2px;
+        aspect-ratio: 1 / 1;
+        width: 30px;
+        background-color: #c6d0dc;
+        border-radius: 50%;
+    }
+
+    .slider:hover {
+        background-color: var(--active);
+    }
+
+    .main-content {
+        border: solid #6c757d 1px;
+        border-bottom: none;
+    }
+
+    .main-content:nth-child(2) {
+        border-right: solid #6c757d 1px;
+        border-left: solid #6c757d 1px;
+    }
+
+    .main-content h2 {
+        margin: 30px 0;
     }
